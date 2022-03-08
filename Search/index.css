@@ -1,0 +1,80 @@
+body {
+  max-width: 2000px;
+  margin: auto;
+}
+
+.nav {
+  background-color: rgb(55, 55, 54);
+}
+.nav-link {
+  color: white !important;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+.nav-link:hover {
+  background-color: rgb(84, 84, 84);
+}
+
+.search-bar {
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+.submit-button {
+  border-radius: 50px;
+  border: none;
+  margin: 10px;
+  font-size: 1.3rem;
+}
+
+.submit-button:hover {
+  background-color: aliceblue;
+}
+
+.submit-button-advanced {
+  border-radius: 50px;
+  background-color: #4287f5;
+  font-size: 1.3rem;
+  border: none;
+  margin: 10px;
+}
+
+.submit-button-advanced:hover {
+  background-color: #94bbf9;
+}
+
+input {
+  margin: 5px;
+  font-size: 1.4rem;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.form-advanced {
+  display: flex;
+  flex-direction: column;
+
+  align-items: left;
+  width: 300px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.logo-advanced {
+  display: flex;
+  justify-content: left;
+  margin-top: 150px;
+}
+
+img {
+  width: 200px;
+}
