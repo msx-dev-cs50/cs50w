@@ -1,0 +1,22 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ entryTitle }}
+{% endblock %}
+
+{% block body %}
+    <h2>Do you search "{{ entryTitle }}" ?</h2>
+    <hr>
+    <p>It looks like your entry does not exist :( </p>
+    <p>
+        Click <a href="{% url 'newPage' %}">here</a> to create new page
+    </p>
+    <!-- <ul>
+        {% for entry in entries %}
+            <li><a href=/wiki/{{entry}}>{{ entry }}</a></li>
+
+        {% endfor %}
+    </ul> -->
+  
+
+{% endblock %}
